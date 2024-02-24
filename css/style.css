@@ -1,0 +1,361 @@
+/* object-fit */
+@font-face {      
+    font-family:IRANSans-web;
+    src: url('../font/IRANSans-web.ttf');
+}
+
+
+html
+{
+    font-size: 62.5%;
+}
+
+*{
+    direction: rtl;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    font-family: IRANSans-web;
+}
+
+a{
+    text-decoration: none;
+}
+
+.App{
+    width: 94%;
+    margin: auto;
+}
+
+
+.nav{
+    padding: 2.3em 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-right{
+    flex:3  ;
+}
+
+.nav-left{
+    flex:3 ;
+}
+
+.nav-left-ul
+{
+    text-align: left;
+}
+
+.nav-left-ul li
+{
+    display: inline-block;
+    margin-right: 1.5em;
+    position: relative;
+}
+
+
+.nav-left-ul li p
+{
+    font-size:1.4rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color:#1601FF ;
+    position: absolute;
+    top: -17%;
+    right: -25%;
+    width: 3rem;
+    border-radius: 1.2rem;
+
+}
+
+
+.icon-profile{
+    width: 4em;
+}
+
+
+.icon{
+    width: 2em;
+    padding: 1.1em;
+    border: 0.1em solid #CDCDCD;
+    border-radius: 1em;
+}
+
+.icon1{
+    width: 2.3em;
+    padding: 1em;
+    border: 0.1em solid #CDCDCD;
+    border-radius: 1em;
+}
+
+
+.nav-right-ul
+{
+    text-align: right;
+}
+
+
+.nav-right-ul li
+{
+    display: inline-block;
+}
+
+
+
+
+.nav-right-ul li a{
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 700;
+    margin-left: 2vw;
+
+    
+}
+
+
+.nav-logo{
+    flex: 1 ;
+    
+    
+}
+.nav-logo section{
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 30px;
+
+}
+
+
+
+
+.header-slider{
+    position: relative;
+    overflow: hidden;
+    /* background:url(../image/hody1.png) center; */
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    flex-grow: 1;
+    height: 455px;
+    border-radius:15px;
+    margin-left: 19px;
+
+}
+.blur-s{
+    background:url(../image/hody2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -10px;
+    left: -10px;
+    filter: blur(5px);
+    transition: .3s;
+}
+
+
+
+.h-slider-content{
+    position: absolute;
+    z-index: 100;
+    /* filter: blur(5px);
+    -webkit-filter: blur(8px); */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.h-slider-content h6{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.h-slider-content ul{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+}
+
+.h-slider-content ul{
+    list-style:none;
+}
+
+
+.arrow-s{
+    position: relative;
+    z-index: 10000;
+
+}
+
+.arrow-s img{
+    width: 12px;
+    height: 12px;
+    padding: 5px;
+    border-radius: 100%;
+    background-color:#7A7A7A ;
+    color: white;
+    
+}
+.s-img-r{
+    background: url("../image/hody2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 50%;
+    height: 95%;
+    margin-top: 13px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow:0px 0px 17.4px -5px #ffffff ;
+    transition: .3s;
+
+    
+}
+
+.h-slider-content p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.mony{
+    width: 172px;
+    height: 46px;
+    background-color: rgb(255, 255, 255);
+    margin: 25px auto 0 auto;
+    border-radius: 7px;
+    box-shadow:0px 0px 17.4px -5px #ffffff ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+
+.blue-t{
+    border-radius: 15px;
+    height: 30px;
+    width: 50px;
+    background-color:#1601FF ;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.t-h{
+    margin-bottom: 0px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.t-h div{
+    margin-top: 3px;
+    margin-bottom:-3px ;
+    
+}
+
+.t-h del{
+    
+    color: #7A7A7A;
+    font-size: 12px;
+}
+
+.img-t{
+    width: 16px;
+    height: 18px;
+    font-weight: bold;
+    grid-area:img-t;
+}
+
+.header-left{
+    position: relative;
+    background:url(../image/image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    flex-grow: 3;
+    height: 455px;
+    border-radius:15px;
+    margin-right: 19px;
+
+}
+
+.header-left-content{
+    width: 40%;
+    position: absolute;
+    margin:25px 33px ;
+    bottom: 20px;
+}
+.header-left-content h4{
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 45px;
+    margin-bottom:7px;
+}
+
+.header-left-content p{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.arrow-hover{
+    display: flex;
+    align-items: center;
+}
+.arrow-hover a{
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 5px;
+    transition: margin .3s;
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow-hover img{
+    transition: 1;
+}
+.arrow-hover a:hover{
+    margin-left: 15px;
+}
+
+.arrow-left{
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
+
+.black-blur{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 15PX;
+}
