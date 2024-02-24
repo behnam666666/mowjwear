@@ -21,9 +21,6 @@ function arrowL(){
 
 }
 
-console.log(window.location.href);
-console.log("salam");
-
 
 
 
