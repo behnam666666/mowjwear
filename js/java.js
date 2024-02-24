@@ -20,7 +20,7 @@ function arrowL(){
     bimg.style="background:url("+imgUlrSlidr[count]+");background-repeat: no-repeat;background-size:cover;background-position: center;position: absolute;top: -10px;bottom: -10px;right: -10px;left: -10px;filter: blur(5px); transition: .3s;"
 
 }
-// console.log(window.location.href+imgUlrSlidr[count]);
+console.log(window.location.href+imgUlrSlidr[count]);
 
 
 
